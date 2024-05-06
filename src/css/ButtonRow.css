@@ -1,0 +1,21 @@
+/* ButtonRow.css */
+.button-row {
+    display: flex;
+    justify-content: center; /* Align buttons in the center horizontally */
+    margin-top: 20px; /* Add margin at the top */
+  }
+  
+  .button {
+    margin: 0 5px; /* Add some spacing between buttons */
+    padding: 10px 20px; /* Add padding to make buttons more clickable */
+    background-color: #007bff; /* Blue background color */
+    color: white; /* White text color */
+    border: none; /* Remove button border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Show pointer cursor on hover */
+  }
+  
+  .button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
